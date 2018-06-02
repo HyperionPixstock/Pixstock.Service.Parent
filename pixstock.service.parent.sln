@@ -3,27 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.App", "..\pixstock.service.app\Pixstock.Service.App.csproj", "{F6C3EE4A-56C7-47E9-B3D4-118D7026EB36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.App", "..\Pixstock.Service.App\Pixstock.Service.App.csproj", "{F6C3EE4A-56C7-47E9-B3D4-118D7026EB36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hyperion.Pf.Entity", "hyperion.pf.entity\Hyperion.Pf.Entity.csproj", "{460567FF-692D-45B6-A536-50796A3DB440}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hyperion.Pf.Entity", "Hyperion.Pf.Entity\Hyperion.Pf.Entity.csproj", "{460567FF-692D-45B6-A536-50796A3DB440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Common.Core", "..\pixstock.common.core\Pixstock.Common.Core.csproj", "{B07D803F-81E6-4855-980D-4BA56DA92881}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Common.Core", "..\Pixstock.Common.Core\Pixstock.Common.Core.csproj", "{B07D803F-81E6-4855-980D-4BA56DA92881}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Common.Model", "..\pixstock.common.model\Pixstock.Common.Model.csproj", "{472EACAE-50D8-4328-B671-ACB403C75B04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Common.Model", "..\Pixstock.Common.Model\Pixstock.Common.Model.csproj", "{472EACAE-50D8-4328-B671-ACB403C75B04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.Infra", "..\pixstock.service.infra\Pixstock.Service.Infra.csproj", "{9BA2B070-9A4F-421C-BF7E-D06D95EC06CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.Infra", "..\Pixstock.Service.Infra\Pixstock.Service.Infra.csproj", "{9BA2B070-9A4F-421C-BF7E-D06D95EC06CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.Model", "..\pixstock.service.model\Pixstock.Service.Model.csproj", "{C0FC7F64-FC54-4910-A721-ECE4697AFEE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.Model", "..\Pixstock.Service.Model\Pixstock.Service.Model.csproj", "{C0FC7F64-FC54-4910-A721-ECE4697AFEE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.Gateway", "..\pixstock.service.gateway\Pixstock.Service.Gateway.csproj", "{DA46AC7D-DA57-4868-B458-F50A0F8FFB52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.Gateway", "..\Pixstock.Service.Gateway\Pixstock.Service.Gateway.csproj", "{DA46AC7D-DA57-4868-B458-F50A0F8FFB52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.Core", "..\pixstock.service.core\Pixstock.Service.Core.csproj", "{E681ED3D-E797-4D33-92F4-D0905748B93A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.Core", "..\Pixstock.Service.Core\Pixstock.Service.Core.csproj", "{E681ED3D-E797-4D33-92F4-D0905748B93A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.Extention.Sdk", "..\pixstock.service.extention.sdk\Pixstock.Service.Extention.Sdk.csproj", "{60D25F8E-5B21-484A-95F2-826A3C15317C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.Extention.Sdk", "..\Pixstock.Service.Extention.Sdk\Pixstock.Service.Extention.Sdk.csproj", "{60D25F8E-5B21-484A-95F2-826A3C15317C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.Extention.FullBuild", "..\pixstock.service.extention.fullbuild\Pixstock.Service.Extention.FullBuild.csproj", "{8913C068-DB26-48AC-B27D-A66F63B729B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.Extention.FullBuild", "..\Pixstock.Service.Extention.Fullbuild\Pixstock.Service.Extention.FullBuild.csproj", "{8913C068-DB26-48AC-B27D-A66F63B729B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.Extention.Webscribe", "..\pixstock.service.extention.webscribe\Pixstock.Service.Extention.Webscribe.csproj", "{DD5AB814-7320-4FA0-9A9E-3B15C8D44278}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixstock.Service.Extention.Webscribe", "..\Pixstock.Service.Extention.Webscribe\Pixstock.Service.Extention.Webscribe.csproj", "{DD5AB814-7320-4FA0-9A9E-3B15C8D44278}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
