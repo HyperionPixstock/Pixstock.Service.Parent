@@ -1,0 +1,51 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "../pixstock.service.app/Pixstock.Service.App.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            // Dockerfileから、Dockerイメージを生成するタスク
+            //
+            // Dockerfileの仕様上、dockerコマンドの実行ディレクトリ配下のファイルのみアクセスを許可する制限のため、
+            // `cd ..`でカレントディレクトリを一つ上の階層(`pixstock.service.parent`の上の階層)でdockerコマンドを実行する
+            "label": "pixstock:docker:build",
+            "type": "shell",
+            "command": "cd ..;docker build -t local/pixstock-service -f pixstock.service.parent/Dockerfile .",
+            "windows": {
+                "command": "cd .. & docker build -t local/pixstock-service -f pixstock.service.parent/Dockerfile ."
+            },
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": []
+        },
+        {
+            // Dockerfileから、Dockerイメージを生成するタスク
+            //
+            // Dockerfileの仕様上、dockerコマンドの実行ディレクトリ配下のファイルのみアクセスを許可する制限のため、
+            // `cd ..`でカレントディレクトリを一つ上の階層(`pixstock.service.parent`の上の階層)でdockerコマンドを実行する
+            //
+            // 【マッピング】
+            // /opt/pixstock/pfs : 仮想ファイルシステムの物理領域
+            // /opt/pixstock/logs : ログ
+            "label": "pixstock:docker:run",
+            "type": "shell",
+            "command": "docker run -ti -p 5080:80 -e Version=1.1 -v /opt/pixstock/pfs:/opt/pixstock/pfs -v /opt/pixstock/vfs:/opt/pixstock/vfs -v /opt/pixstock/logs:/opt/pixstock/logs local/pixstock-service",
+            "windows": {
+                "command": "docker run -ti -p 5080:80 -e Version=1.1 -v /c/Users/${env:username}/PixstockDevelopment/Docker/Pfs:/pixstock/pfs -v /c/Users/${env:username}/PixstockDevelopment/Docker/Vfs:/pixstock/vfs -v /c/Users/${env:username}/PixstockDevelopment/Docker/Logs:/pixstock/logs local/pixstock-service"
+            },
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": []
+        },
+    ]
+}

@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "../Pixstock.Doc",
+			"name": "ドキュメント"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Pixstock.Common.Core",
+		},
+		{
+			"path": "../Pixstock.Common.Model",
+		},
+		{
+			"path": "../Pixstock.Service.Infra",
+		},
+		{
+			"path": "../Pixstock.Service.Model"
+		},
+		{
+			"path": "../Pixstock.Service.App",
+		},
+		{
+			"path": "../Pixstock.Service.Gateway"
+		},
+		{
+			"path": "../Pixstock.Service.Core"
+		},
+		{
+			"path": "../Pixstock.Service.Extention.Sdk"
+		},
+		{
+			"path": "../Pixstock.Service.Extention.Fullbuild"
+		},
+		{
+			"path": "../Pixstock.Service.Extention.Webscribe"
+		}
+	]
+}
