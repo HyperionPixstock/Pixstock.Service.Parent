@@ -1,0 +1,3 @@
+[submodule "Hyperion.Pf.Entity"]
+	path = Hyperion.Pf.Entity
+	url = git@github.com:HyperionPixstock/Hyperion.Pf.Entity.git
